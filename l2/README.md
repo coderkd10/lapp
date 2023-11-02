@@ -30,9 +30,9 @@ To learn:
 - auth
 - metadata: prepare app for social sharing
 
-## Starter
+## [Getting Starter](https://nextjs.org/learn/dashboard-app/getting-started)
 
-<https://github.com/vercel/next-learn/tree/main/dashboard/starter-example>
+[Starter Repo](https://github.com/vercel/next-learn/tree/main/dashboard/starter-example)
 
 ```
 npx create-next-app@latest nextjs-dashboard --use-npm --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example"
