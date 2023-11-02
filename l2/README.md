@@ -30,7 +30,7 @@ To learn:
 - auth
 - metadata: prepare app for social sharing
 
-## [Getting Starter](https://nextjs.org/learn/dashboard-app/getting-started)
+## [Getting Started](https://nextjs.org/learn/dashboard-app/getting-started)
 
 [Starter Repo](https://github.com/vercel/next-learn/tree/main/dashboard/starter-example)
 
