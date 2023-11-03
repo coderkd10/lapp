@@ -47,6 +47,10 @@ npx create-next-app@latest nextjs-dashboard --use-npm --example "https://github.
     - import `global.css` to the root layout `/app/layout.tsx`
 
 - tailwind vs css modules
+    - css modules great when:
+        - prefer writing traditional css
+        - keeping styles separte from jsx
+
 - `clsx`
 
 ### Things I don't understand:
@@ -68,8 +72,16 @@ In `global.css` what does the following mean:
         - installing the tailwind css extension
         - setting a file association rule to tell vscode that css file are actually tailwind css files.
 
+### Notes
+
+- 
+
+
 ### Things learn more
 
 - Tailwind CSS
+    - [utility classes](https://tailwindcss.com/docs/utility-first)
+
+
 
 ## TODO
