@@ -88,27 +88,34 @@ In `global.css` what does the following mean:
 
 ## Chapter 3: [Optimizing Fonts and Images](https://nextjs.org/learn/dashboard-app/optimizing-fonts-images)
 
-- adding custom fonts with `next/font`
-    - **why?** To avoid ["Cumulative Layout Shift"](https://web.dev/articles/cls)
-    - [read more](https://nextjs.org/docs/app/building-your-application/optimizing/fonts)
-    - [reference](https://nextjs.org/docs/app/api-reference/components/font)
+### `next/font`
 
-- adding images with `next/image`
-    - **why?** If we manually add images using the `<img>` tag, then we need to take care of following manually:
-        - ensure images are responsive on different screen sizes: desktop, mobile, etc.
-        - manage image sizes for different devices
-        - prevent layout shift as images load
-        - lazy load images outside of viewport
-    - **what** `next/image` provides `<Image>` component, which is extension of `<img>` tag. It takes of optimizations such as:
-        - prevent layout shift when images are loading.
-        - resize images to avoid shipping large images to devices with smaller viewport.
-        - lazy load images by default.
-        - serve images in modern formats (e.g webp, avif, etc) where supported by browser.
-    - [read more](https://nextjs.org/docs/app/building-your-application/optimizing/images)
+Add custom fonts with `next/font`.
 
-- more reading
-    - [MDN: improving perf with images](https://developer.mozilla.org/en-US/docs/Learn/Performance/Multimedia)
-    - [MDN: web fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts)
+- **why?** To avoid ["Cumulative Layout Shift"](https://web.dev/articles/cls)
+- [read more](https://nextjs.org/docs/app/building-your-application/optimizing/fonts)
+- [reference](https://nextjs.org/docs/app/api-reference/components/font)
 
+### `next/image`
+
+Add images with `next/image`.
+
+- **why?** If we manually add images using the `<img>` tag, then we need to take care of following manually:
+    - ensure images are responsive on different screen sizes: desktop, mobile, etc.
+    - manage image sizes for different devices
+    - prevent layout shift as images load
+    - lazy load images outside of viewport
+
+- **what?** `next/image` provides `<Image>` component, which is extension of `<img>` tag. It takes care of optimizations such as:
+    - prevent layout shift when images are loading.
+    - resize images to avoid shipping large images to devices with smaller viewport.
+    - lazy load images by default.
+    - serve images in modern formats (e.g webp, avif, etc) where supported by browser.
+- [read more](https://nextjs.org/docs/app/building-your-application/optimizing/images)
+
+### more reading
+
+- [MDN: improving perf with images](https://developer.mozilla.org/en-US/docs/Learn/Performance/Multimedia)
+- [MDN: web fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts)
 
 ## Chapter 4: [Creating Layouts and Pages](https://nextjs.org/learn/dashboard-app/creating-layouts-and-pages)
