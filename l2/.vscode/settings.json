@@ -1,5 +1,6 @@
 {
   "files.associations": {
+    "*.module.css": "css",
     "*.css": "tailwindcss"
   }
 }
