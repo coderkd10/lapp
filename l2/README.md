@@ -142,4 +142,27 @@ Add images with `next/image`.
 - `app/your/route/layout.tsx`: UI that is shared between multiple pages
 
 
-## TODO
+## Chapter 5: [Navigating Between Pages](https://nextjs.org/learn/dashboard-app/navigating-between-pages)
+
+### Goals
+
+- use the `next/link` component
+- show active link using `usePathname()` hook
+- client side navigation in Next.js
+
+### Client side navigation
+
+- what? using `<Link>` instead of `<a>`
+- why? to avoid full page refresh
+
+- learn more about [how navigation works](https://nextjs.org/docs/app/building-your-application/routing/linking-and-navigating#how-routing-and-navigation-works)
+
+
+### Notes
+
+- `use client`: declare ["Client Component"](https://nextjs.org/docs/app/building-your-application/rendering/client-components)
+- next does automatic code spliting and prefetching
+
+## Chapter 6: [Setting up DB](https://nextjs.org/learn/dashboard-app/setting-up-your-database)
+
+
