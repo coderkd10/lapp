@@ -119,3 +119,27 @@ Add images with `next/image`.
 - [MDN: web fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts)
 
 ## Chapter 4: [Creating Layouts and Pages](https://nextjs.org/learn/dashboard-app/creating-layouts-and-pages)
+
+### Goals
+
+- so far the app just has the home page (`/`)
+- will create more routes with layouts and pages
+    - `/login` and `/dashboard` pages (using "file-sytem" routing)
+- will create shared layout for multiple dashboard pages
+- understand:
+    - "colocation"
+    - "partial rendering"
+    - "root layout"
+
+### Concepts
+
+- `app/your/route/page.tsx`: exports a react component containing the UI for path `/your/route`
+
+- "Colocation"
+    - inside the `app/your/route` directory can also put our own files (ui components, test files, other related code) for that route. Only the contents of `page.[js|ts]` file will be publically accessible.
+    - [read](https://nextjs.org/docs/app/building-your-application/routing#colocation) [more](https://nextjs.org/docs/app/building-your-application/routing/colocation)
+
+- `app/your/route/layout.tsx`: UI that is shared between multiple pages
+
+
+## TODO
